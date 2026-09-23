@@ -16,6 +16,7 @@
 .idea/
 
 ## Build and Package Output
+*.zip
 *.nupkg
 *.snupkg
 *.log

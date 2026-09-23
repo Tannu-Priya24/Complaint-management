@@ -1,0 +1,44 @@
+## .NET and Visual Studio
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+*.userprefs
+*.DotSettings.user
+*.pidb
+*.ide
+.vs/
+.vscode/
+.idea/
+
+## Build and Package Output
+*.nupkg
+*.snupkg
+*.log
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Environment and Secrets
+.env
+.env.*
+*.local
+appsettings.Production.json
+appsettings.*.local.json
+
+## User Uploads (keep default templates and placeholder assets)
+wwwroot/upload/*
+!wwwroot/upload/Default/
+!wwwroot/upload/Default/**
+!wwwroot/upload/blank*
+
+## OS and Cache
+.DS_Store
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
